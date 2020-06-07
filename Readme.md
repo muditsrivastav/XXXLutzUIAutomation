@@ -1,4 +1,4 @@
-Onna UI Automation
+XXXLutz UI Automation
 -------------------
 
 About this framework
@@ -13,17 +13,7 @@ About this framework
 Test Case Automated in this Framework
 --------------------------------------
 
-Scenario : Create Workspace and share with an existing member (Members added in Admin Panel)
---------
-Given User is on Onna home page after successful login <br/>
-When User clicks create workspace icon <br/>
-And fills Workspace name as “Test” <br/>
-And Share workspace with  “test.admin@onna.com”  <br/>
-And Select “Manage” permission <br/>
-And User clicks “Create” button <br/>
-Then Workspace with name “Test” is created <br/>
-And Workspace is shared with “test.admin@onna.com” <br/>
-And User is navigated to Add a Source page <br/>
+
 
 
 How to run the tests
