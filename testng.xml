@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="XXXLutz Test">
+	<listeners>
+		<listener class-name="com.xxxlutz.resources.Listeners" />
+	</listeners>
+
+	<test name="Take Home Test">
+		<packages>
+			<package name="com.xxxlutz.enterprise.test" />
+		</packages>
+	</test>
+</suite>
