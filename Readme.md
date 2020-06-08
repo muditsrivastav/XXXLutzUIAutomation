@@ -4,9 +4,11 @@ XXXLutz UI Automation
 About this framework
 --------------------
 
-. The framework is a Maven, Page Object Model project created using Java, TestNG, Selenium, Extent Report and Log4J2. <br/>
+. The framework is a Maven, Page Object Model project created using Java, TestNG, Selenium, Extent Report for reporting and Log4J2 for logging <br/>
 . The framework can be enhanced to a data-driven framework and each test case can be reused to run for multiple data sets using TestNG data provider. <br/>
-. The Framework is integrated with CircleCI and BrowserStack. <br/>
+. The framework is integrated with code quality tool prettier.  <br/>
+. The framework is integrated with testing service BrowserStack. <br/>
+. The framework is integrated with CircleCI. <br/>
 
 
 Test Case Automated in this Framework
@@ -26,7 +28,7 @@ b) For mac install openjdk follow instructions on this link - https://openjdk.ja
 a) For Windows follow instructions here - https://maven.apache.org/guides/getting-started/windows-prerequisites.html. <br/>
 b) For mac follow instructions here - https://maven.apache.org/install.html <br/>
 . From command line navigate to the project directory. <br/>
-. Run command - mvn clean install test <br/>
+. Run command - mvn prettier:check clean install , if build fails due to formatting run command - mvn prettier:write clean install<br/>
 
 
 NOTE:
